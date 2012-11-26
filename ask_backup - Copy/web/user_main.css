@@ -1,0 +1,69 @@
+/* 
+    Document   : user_main
+    Created on : Nov 3, 2012, 7:20:05 PM
+    Author     : lamprinh
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+.image { 
+  float: left;
+  margin-top:10px;
+  margin-right: 10px;
+  margin-bottom:10px;  
+  position: relative;
+  top:-200px;
+}
+
+
+.image p a{
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+font-size: 13px;
+  font-style:italic;
+  font-family:"Times New Romans", Times, sans-serif;  
+}
+img{
+  width: 200px;
+  height: 220px;
+  border: 5px solid black;
+}
+
+.image .sepia {        
+     -webkit-filter: sepia(90%) contrast(100%) blur(0.5px);
+     filter: url(sepia.svg#old-timey);
+}
+
+.image .xml {
+    display: none;
+    height: 200px;
+    width : 200px;
+    
+}
+#Upload{
+    position: relative;
+    top:-250px;
+}
+
+.photo_small {
+    width: 75px;
+    height: 75px;
+}
+#statistics{
+    height:320px;
+    width:300px;
+    position: relative;
+    right:-1000px;
+    top:-50px;
+    background-color:#ffeeff;
+}
+
+#popup{
+  background-color:#ffeeff;
+  color: darksalmon;
+  width:350px;
+}
+
